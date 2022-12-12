@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddressAddActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/add_manager_appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/add_manager_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:elevation="0dp">
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:id="@+id/address_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/slider_bg"
+        android:elevation="3dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_manager_appbarlayout">
+
+        <TextView
+            android:id="@+id/setname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/setphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/setflat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/setlocality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/setstate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/setncity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/setpin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addres_update_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="#FF5252"
+        android:gravity="center"
+        android:text="Change Address"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/address_view_layout" />
+
+    <Button
+        android:id="@+id/addr_continue_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="#FF5252"
+        android:gravity="center"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/addres_update_btn" />
+
+    <ScrollView
+        android:id="@+id/sclroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addr_continue_btn">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/slider_bg"
+                android:elevation="3dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/add_manager_personname_txte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16sp"
+                    android:ems="10"
+                    android:gravity="start"
+                    android:hint="Person name"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/add_manager_phone_txte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginEnd="16sp"
+                    android:ems="10"
+                    android:gravity="start"
+                    android:hint="Phone"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/add_manager_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginEnd="16sp"
+                    android:ems="10"
+                    android:hint="City"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/add_manager_locality_area_txte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginEnd="16sp"
+                    android:ems="10"
+                    android:gravity="start"
+                    android:hint="Locality, area, or street "
+                    android:inputType="textMultiLine"
+                    android:lines="3" />
+
+                <EditText
+                    android:id="@+id/add_manager_float_building_txte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginEnd="16sp"
+                    android:ems="10"
+                    android:gravity="start"
+                    android:hint="Float no, building name "
+                    android:inputType="textMultiLine"
+                    android:lines="3" />
+
+
+                <EditText
+                    android:id="@+id/add_manager_state_txte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginEnd="16sp"
+                    android:ems="10"
+                    android:gravity="start"
+                    android:hint="State"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/add_manager_pinnumber_txte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16sp"
+                    android:layout_marginEnd="16sp"
+                    android:layout_marginBottom="8dp"
+                    android:ems="10"
+                    android:gravity="start"
+                    android:hint="Pin Number"
+                    android:inputType="number" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:enabled="false"
+                android:id="@+id/add_manager_save_btn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="16dp"
+                android:backgroundTint="#FF5252"
+                android:text="Save"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

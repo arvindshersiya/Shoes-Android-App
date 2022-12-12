@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    android:background="@drawable/slider_bg"
+    android:elevation="3dp">
+
+    <ImageView
+        android:id="@+id/c_i_product_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vnts" />
+
+    <TextView
+        android:id="@+id/c_i_product_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="vens shoes"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/c_i_product_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/c_i_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs.599/-"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginRight="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/c_i_prduct_prce"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/c_i_prduct_prce" />
+
+    <TextView
+        android:id="@+id/c_i_prduct_prce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="10sp"
+        android:text="Price"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/c_i_product_image"
+        app:layout_constraintTop_toBottomOf="@+id/c_i_product_title" />
+
+    <TextView
+        android:id="@+id/c_i_prduct_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="10sp"
+        android:text="Price"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/c_i_product_image"
+        app:layout_constraintTop_toBottomOf="@+id/c_i_product_title" />
+
+
+    <TextView
+        android:id="@+id/c_i_product_price_item_txtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="20dp"
+        android:text="Total price (Qty 1)  "
+        android:textColor="@color/black"
+        android:textSize="11dp"
+        app:layout_constraintStart_toEndOf="@+id/c_i_product_image"
+        app:layout_constraintTop_toBottomOf="@+id/c_i_prduct_prce" />
+
+    <TextView
+        android:id="@+id/c_i_product_price_item_amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Rs. 599/-"
+        android:textColor="@color/black"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toBottomOf="@+id/c_i_product_price_item_txtv"
+        app:layout_constraintStart_toStartOf="@+id/c_i_product_price"
+        app:layout_constraintTop_toTopOf="@+id/c_i_product_price_item_txtv" />
+
+
+    <LinearLayout
+        android:id="@+id/c_i_product_remover"
+        android:layout_width="395dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="1sp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingRight="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c_i_product_image">
+
+
+        <TextView
+            android:id="@+id/c_i_prduct_rm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableEnd="@drawable/dustbin_icon"
+            android:background="?attr/selectableItemBackground"
+            android:drawablePadding="4dp"
+            android:gravity="center"
+            android:text="Remove item" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

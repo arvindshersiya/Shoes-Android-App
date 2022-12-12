@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "382936308569",
+    "project_id": "footwearshoptb",
+    "storage_bucket": "footwearshoptb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382936308569:android:c298fe7f3876b039d80a48",
+        "android_client_info": {
+          "package_name": "com.example.footwearshopstb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382936308569-olumjpfp6u6pk1q0l6ceuelmv8urlpa8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGQvCC25zW-KI9FHLGojrFOZ1n77XLIXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382936308569-olumjpfp6u6pk1q0l6ceuelmv8urlpa8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

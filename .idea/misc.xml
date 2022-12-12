@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.10666666666666667" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/about_icon.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/btn_bg_p_d.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/button_bg.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/cart_btn_bg_p_d.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/cart_icon.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/dot_icon.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/drop_dwon_icon.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/grid_bg.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/home_icon.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1595" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/icon_account.xml" value="0.1824074074074074" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/icon_cart_g.xml" value="0.15092592592592594" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/icons_home.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/increase_icon.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/input_bg.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/layout_bg.xml" value="0.1824074074074074" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/line_bg.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/login_bg.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/minus_sign_icon.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/no_internet_layout.xml" value="0.1245" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/product_details_bg.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/progress_bg.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/qty_bg.xml" value="0.6" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/round_bg.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/shadow.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/slider_bg.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/drawable/tab_bg.xml" value="0.2" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/activity_address_add.xml" value="0.22" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/activity_all_view.xml" value="0.18385416666666668" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/activity_forgot_psk.xml" value="0.12" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/activity_home.xml" value="0.14666666666666667" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/activity_my_cart.xml" value="0.22" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/activity_my_order.xml" value="0.18385416666666668" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/activity_my_order_details.xml" value="0.22" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/activity_order_place.xml" value="0.22" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/activity_product_details.xml" value="0.14666666666666667" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/activity_search.xml" value="0.16666666666666666" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/activity_splash_screen.xml" value="0.10144927536231885" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/appbar.xml" value="0.129981884057971" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/cart_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/cart_total_amount.xml" value="0.16666666666666666" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/f_a_recycleview_list_.xml" value="0.14666666666666667" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/fragment_about.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/fragment_account.xml" value="0.16455696202531644" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/fragment_cart.xml" value="0.13333333333333333" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/fragment_my_order.xml" value="0.18385416666666668" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/grid_product_layout.xml" value="0.24277456647398843" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/horizontal_scroll_item_layout.xml" value="0.22" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/horizontal_scroll_layout.xml" value="0.12" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/item_container_grid.xml" value="0.1" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/my_order_item_layout.xml" value="0.22" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/not_internet_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/order_details_layout.xml" value="0.22" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/p_o_item_activity.xml" value="0.22" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/payment_dialog.xml" value="0.3333333333333333" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/quantity_dialog.xml" value="0.16666666666666666" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/shipping_details_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/sign_dialog.xml" value="0.22" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/slide_ads_layout.xml" value="0.14266304347826086" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/layout/slide_layout.xml" value="0.16666666666666666" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/menu/nav_manu.xml" value="0.18385416666666668" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/menu/top_menu.xml" value="0.18385416666666668" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/mipmap-anydpi-v26/logo.xml" value="0.18703703703703703" />
+        <entry key="..\:/New folder (2)/Footwearshops/app/src/main/res/mipmap-anydpi-v26/logo_round.xml" value="0.18703703703703703" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16666666666666666" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
